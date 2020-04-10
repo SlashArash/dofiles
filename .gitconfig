@@ -6,7 +6,7 @@
 	email = slasharash@protonmail.com
 	name = Arash Kadkhodaei
 [alias]
-	s = status
+	s = status -sb
 	co = checkout
 	cob = checkout -b
 	ct = commit
@@ -20,3 +20,5 @@
 	po = push origin
 	pom = push origin master
 	unstage = reset HEAD
+	glog = log --oneline --decorate --graph
+	graph = log --graph --pretty='%C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
