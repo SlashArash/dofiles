@@ -1,0 +1,22 @@
+
+[core]
+	editor = nvim
+	excludesfile = ~/.gitignore_global
+[user]
+	email = slasharash@protonmail.com
+	name = Arash Kadkhodaei
+[alias]
+	s = status
+	co = checkout
+	cob = checkout -b
+	ct = commit
+	ctm = commit -m
+	a = add
+	aa = add -A
+	amend = commit --amend
+	br = branch
+	brd = branch -d
+	brD = branch -D
+	po = push origin
+	pom = push origin master
+	unstage = reset HEAD
